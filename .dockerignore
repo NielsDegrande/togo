@@ -1,0 +1,13 @@
+.cache
+.coverage
+.direnv
+.env
+.git
+.github
+.venv
+.vscode
+backups
+data
+logs
+test-reports
+venv

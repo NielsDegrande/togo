@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/tekwizely/pre-commit-golang
+    rev: v1.0.0-rc.2
+    hooks:
+      - id: go-mod-tidy            # Dependency management
+      - id: go-fumpt-repo          # Code formatting
+      - id: go-imports-repo        # Import management
+      - id: golangci-lint-mod      # Comprehensive linting
+      - id: go-sec-mod             # Security scanning
+      - id: go-build-mod           # Build validation
+      - id: go-test-repo-mod       # Testing
